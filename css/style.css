@@ -11,12 +11,13 @@ body {
   flex-direction: row;
   position: relative;
   margin: auto;
-  max-width: 1100px;
+  max-width: 1000px;
+  height: auto;
   box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
 }
 
 .contentWrapper {
-  background-color: #e4e5e5;
+  background-color: #dde4e7;
   height: 100%;
   min-height: 800px;
   flex-grow: 1;
@@ -82,11 +83,9 @@ body {
 }
 
 .sidebarWrapper {
-  height: 100%;
+  height: auto;
   min-height: 800px;
-  width: 280px;
-  position: absolute;
-  right: 0;
+  min-width: 280px;
   background-color: #4B6A78;
 }
 
@@ -137,7 +136,7 @@ body {
   margin-left: -22px;
 }
 
-@media (max-width: 950px) {
+@media only screen and (max-width: 480px) {
   .mainWrapper {flex-direction: column;}
   .sidebarWrapper {
     position: relative;
