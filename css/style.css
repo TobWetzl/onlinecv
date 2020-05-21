@@ -137,7 +137,7 @@ body {
   margin-left: -22px;
 }
 
-@media screen and (max-width: 950px) {
+@media (max-width: 950px) {
   .mainWrapper {flex-direction: column;}
   .sidebarWrapper {
     position: relative;
